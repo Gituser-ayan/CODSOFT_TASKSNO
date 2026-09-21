@@ -1,27 +1,65 @@
 # CODSOFT_TASKSNO
 
-Python Programming Internship Tasks – CodSoft
+Python Programming Internship Tasks - CodSoft
 
-This repository contains my submissions for the CodSoft Python Programming Virtual Internship.
+This repository contains three completed tasks from the CodSoft Python Programming
+Virtual Internship.
 
 ## Tasks Completed
 
-### 1. Calculator (`calculator.py`)
-A simple command-line calculator that performs addition, subtraction, multiplication, and division based on user input.
+### Task 1 - To-Do List
+A command-line task manager with:
+- Add task
+- View tasks
+- Update task
+- Mark/unmark completion
+- Delete task
+- Persistent storage using JSON
 
-### 2. Password Generator (`password_generator.py`)
-Generates a random password of a user-specified length, using a mix of letters, digits, and symbols.
+### Task 4 - Rock, Paper, Scissors
+A command-line game with:
+- User vs computer gameplay
+- Random computer choice
+- Winner determination
+- Multiple rounds
+- Score tracking
+- Play-again option
 
-### 3. Rock, Paper, Scissors (`rock_paper_scissors.py`)
-A command-line Rock, Paper, Scissors game against the computer, with score tracking across multiple rounds.
+### Task 5 - Contact Book
+A command-line contact manager with:
+- Add contact
+- View contacts
+- Search by name or phone number
+- Update contact
+- Delete contact
+- Persistent storage using JSON
+
+## Requirements
+
+- Python 3
+
+No external Python packages are required.
 
 ## How to Run
-Each file can be run independently using Python 3:
+
+### Task 1
 ```bash
-python calculator.py
-python password_generator.py
-python rock_paper_scissors.py
+cd task-1-to-do-list
+python3 todo_list.py
 ```
 
-## About
-Completed as part of the CodSoft Python Programming Internship (Aug–Sep 2026).
+### Task 4
+```bash
+cd task-4-rock-paper-scissors
+python3 rock_paper_scissors.py
+```
+
+### Task 5
+```bash
+cd task-5-contact-book
+python3 contact_book.py
+```
+
+## Internship
+
+Completed as part of the CodSoft Python Programming Internship (Aug-Sep 2026).
